@@ -20,7 +20,11 @@
 }
 
 img {
-    width: 20vw;
+    width: 18vw;
     height: 20
+}
+
+img:hover {
+    cursor: pointer;
 }
   

@@ -19,12 +19,17 @@ const WelcomeText = () => {
             </div>
 
             <div className="learn-more-button-container">
-                <button className="learn-more-button">
-                    Learn More
+                <button className="learn-more-button" onClick={radioLink}>
+                    Listen
                 </button>
             </div>
         </div>
     )
-}   
+}
+
+const radioLink = (e) => {    
+    e.preventDefault()
+    window.open('https://youtu.be/nSy7wpevIsY', '_blank')     
+}
 
 export default WelcomeText 
