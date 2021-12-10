@@ -13,13 +13,3 @@ html {
     background-repeat: no-repeat;
 
 }
-
-.welcome-text-container{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 30px;
-  font-size: 4vh;
-  font-family: bank-gothic;
-  color: #ffffffd5
-}
