@@ -17,6 +17,12 @@ const WelcomeText = () => {
                 </p>
                 <p className="julio-g">Julio G</p>
             </div>
+
+            <div className="learn-more-button-container">
+                <button className="learn-more-button">
+                    Learn More
+                </button>
+            </div>
         </div>
     )
 }   
