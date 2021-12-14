@@ -1,15 +1,10 @@
-import Navbar from "./modules/Navbar";
-import Logo from "./modules/Logo";
-import WelcomeText from "./modules/WelcomeText";
+import Home from './modules/Home'
 import './App.css'
-import './modules/main.css'
 
 function App() {
   return (
-    <div className="background-slides">
-      <Navbar />
-      <Logo />
-      <WelcomeText />
+    <div className="homepage">
+      <Home />
     </div>
   );
 }

@@ -1,7 +1,8 @@
 @font-face {
     font-family: bank-gothic; 
     src: url(../fonts/BankGothic\ Regular.ttf);
-  }
+}
+
 @font-face {
     font-family: arahoni-bold;
     src: url(../fonts/AharoniBold.ttf);
@@ -12,7 +13,76 @@
     src: url(../fonts//diploma.ttf);
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
 
+html {
+    min-height: 100%;
+    background-image:linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ), url('../images/crack-den.jpg');
+      background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+/* Navbar */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; 
+  font-family: bank-gothic;
+  font-size: 2.5vh;
+  background: #00000055;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 18px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: #b7d3f4;
+}
+
+.title {
+  float: left;
+  display: block;
+  color: white; 
+  padding: 18px 16px;
+  font-family: diploma;
+  text-shadow: 0.1vh 0.1vw #000;
+}
+
+/* Logo */ 
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+img {
+    width: 18vw;
+    height: 20
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+/* Welcome Text */ 
 .welcome-text-container{
     display: flex;
     flex-direction: column;
