@@ -70,12 +70,11 @@ li a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 img {
     width: 18vw;
-    height: 20
 }
 
 img:hover {
@@ -135,4 +134,21 @@ img:hover {
 .learn-more-button:hover {
     cursor: pointer;
     color: #b7d3f4  
+}
+
+/* Footer */
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding: 0 0.6vh 0.6vh 0.6vh;
+  margin-top: 2vh;
+}
+
+.footer-text {
+  font-size: 2vh;
+  font-family: bank-gothic;
+  color: #ffffffd5;
+  text-shadow:0.1vh 0.1vh #000;
 }

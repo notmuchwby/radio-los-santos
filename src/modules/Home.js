@@ -58,12 +58,23 @@ const WelcomeText = () => {
     )
 }
 
+const Footer = () => {
+    return (
+        <div className="footer-container">
+            <p className="footer-text">
+                Made by notmuchwby. All rights belong to Rockstar Games.
+            </p>
+        </div>
+    )
+}
+
 const Home = () => {
     return (
         <div className="homepage">
             <Navbar />
             <Logo />
             <WelcomeText />
+            <Footer />
         </div>
     )
 }
