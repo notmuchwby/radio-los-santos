@@ -21,6 +21,7 @@
     font-size: 4vh;
     font-family: bank-gothic;
     color: #ffffffd5;
+    text-shadow:0.2vh 0.2vh #000;
   }
 
 .introduction-text-container {
@@ -32,17 +33,14 @@
     font-size: 2.5vh;
     font-family: arahoni-bold;
     margin-top: 8vh;
-    -webkit-text-stroke-width: 0.3px;
-    -webkit-text-stroke-color: black;
+    text-shadow:0.1vh 0.1vh #000;
     background: #00000055;
-    border: 1px solid black;
+    border: 0.1vh solid black;
     padding: 4vh 0 2vh 0;
     margin: 4vh 33vw 0 33vw; 
 }
 
 .julio-g {
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: black;
     font-size: 3vh;
     margin-top: 1vh;
     margin-left: 40vh;
