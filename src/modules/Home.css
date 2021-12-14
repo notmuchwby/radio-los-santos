@@ -139,11 +139,10 @@ img:hover {
 /* Footer */
 
 .footer-container {
-  display: flex;
-  flex-direction: column;
-  align-items: left;
-  padding: 0 0.6vh 0.6vh 0.6vh;
-  margin-top: 2vh;
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
 }
 
 .footer-text {
