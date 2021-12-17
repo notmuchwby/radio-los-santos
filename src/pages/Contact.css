@@ -1,0 +1,66 @@
+@font-face {
+  font-family: arahoni-bold;
+  src: url(../fonts/AharoniBold.ttf);
+} 
+
+@font-face {
+  font-family: bank-gothic; 
+  src: url(../fonts/BankGothic\ Regular.ttf);
+}
+
+@font-face {
+  font-family: diploma;
+  src: url(../fonts//diploma.ttf);
+}
+
+.contactpage {
+    height: 100vh;
+    background-image:linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ), url('../images/grovest2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.title-and-info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 40px;
+}
+
+.address-name-container {
+  margin-top: 11vh;
+  color: white;
+  font-family: diploma;
+  text-shadow: 0.2vh 0.2vh #000;
+}
+
+.info-container {
+  margin: 4vh 45vh 0 45vh;
+  padding: 5vh 5vw;
+  background-color: #00000055;
+  color: white;
+  font-family: bank-gothic;
+  text-shadow: 0.2vh 0.2vh #000;
+}
+
+.info-address-container {
+  text-align: left;
+  margin-left: 14vh;
+  font-size: 20px;
+}
+
+.map {
+  margin-left: 0.5vw;
+}
+
+#info-text {
+  margin: 1vh;
+}
+
+
+
+
+

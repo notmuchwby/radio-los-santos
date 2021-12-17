@@ -1,0 +1,18 @@
+@font-face {
+    font-family: bank-gothic; 
+    src: url(../fonts/BankGothic\ Regular.ttf);
+}
+
+.footer-container {
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+  }
+  
+  .footer-text {
+    font-size: 2vh;
+    font-family: bank-gothic;
+    color: #ffffffd5;
+    text-shadow:0.1vh 0.1vh #000;
+  }

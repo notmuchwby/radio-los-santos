@@ -1,0 +1,45 @@
+@font-face {
+    font-family: bank-gothic; 
+    src: url(../fonts/BankGothic\ Regular.ttf);
+}
+
+@font-face {
+    font-family: diploma;
+    src: url(../fonts//diploma.ttf);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+    font-family: bank-gothic;
+    font-size: 2.5vh;
+    background: #00000055;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 18px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    color: #b7d3f4;
+  }
+  
+  .title {
+    float: left;
+    display: block;
+    color: white; 
+    padding: 18px 16px;
+    font-family: diploma;
+    text-shadow: 0.1vh 0.1vw #000;
+  }
+  

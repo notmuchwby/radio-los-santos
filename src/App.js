@@ -1,10 +1,13 @@
-import Home from './modules/Home'
+import Home from './pages/Home'
+import About from './pages/About'
+import Contact from './pages/Contact'
 import './App.css'
 
 function App() {
   return (
-    <div className="homepage">
-      <Home />
+    <div>
+      {/* <Home /> */}
+      <Contact />
     </div>
   );
 }

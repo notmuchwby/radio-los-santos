@@ -1,17 +1,7 @@
+import Navbar from '../modules/Navbar'
+import Footer from '../modules/Footer'
 import './Home.css'
 import logo from '../images/radio-logo.png'
-
-const Navbar = () => {
-    return (
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#news">News</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li ><a className="active" href="#about">About</a></li>
-            <li className="title">Since 1988</li>
-        </ul>           
-    )
-}
 
 const Logo = () => {   
     const radioLink = (e) => {    
@@ -54,16 +44,6 @@ const WelcomeText = () => {
                     Listen
                 </button>
             </div>
-        </div>
-    )
-}
-
-const Footer = () => {
-    return (
-        <div className="footer-container">
-            <p className="footer-text">
-                Made by notmuchwby. All rights belong to Rockstar Games.
-            </p>
         </div>
     )
 }
