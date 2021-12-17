@@ -30,6 +30,7 @@ const Contact = () => {
         <div className="contactpage">
             <Navbar />
             <Info />
+            <Footer />
         </div>
     )
 }
