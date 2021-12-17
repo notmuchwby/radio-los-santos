@@ -1,9 +1,54 @@
+@font-face {
+  font-family: arahoni-bold;
+  src: url(../fonts/AharoniBold.ttf);
+} 
+
 .aboutpage {
     height: 100vh;
     background-image:linear-gradient(
         rgba(0, 0, 0, 0.5),
         rgba(0, 0, 0, 0.5)
-      ), url('../images/grovest2.jpg');
+      ), url('../images/jefferson.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.about-info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff
+}
+
+.about-title-container {
+  margin-top: 5vh;
+  color: white;
+  font-family: diploma;
+  font-size: 40px;
+  text-shadow: 0.2vh 0.2vh #000;
+}
+
+.slide-show-and-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #00000055;
+  border: 0.1vh solid black;
+  margin: 3.5vh 30vh 0 30vh;
+}
+
+.slide-show-container {
+  margin-top: 5vh;
+}
+
+.slide-show {
+  height: 35vh;
+  width: 35vw;
+}
+
+.about-text-container {
+  font-family: arahoni-bold;
+  font-size: 2.5vh;
+  text-shadow: 0.2vh 0.2vh #000;
+  margin: 5vh;
 }

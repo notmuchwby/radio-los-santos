@@ -17,7 +17,7 @@ const Info = () => {
                     <p className="phone-number" id="info-text">Office phone: 187-999-1068</p>
                     <p className= "julio-g-phone-number" id="info-text">Julio G: 187-241-3312</p>
                     <p className="address" id="info-text">Location: West Vinewood 38, 4th floor</p>
-                    <img className="map" src={map}/>
+                    <img className="map" src={map} alt="radio los santos headquarters on the map"/>
                     <p class="radio" id="info-text">Radio Los Santos Headquarters</p>
                 </div>
             </div>

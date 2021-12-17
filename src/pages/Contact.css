@@ -1,9 +1,4 @@
 @font-face {
-  font-family: arahoni-bold;
-  src: url(../fonts/AharoniBold.ttf);
-} 
-
-@font-face {
   font-family: bank-gothic; 
   src: url(../fonts/BankGothic\ Regular.ttf);
 }
@@ -31,19 +26,20 @@
 }
 
 .address-name-container {
-  margin-top: 11vh;
+  margin-top: 5vh;
   color: white;
   font-family: diploma;
   text-shadow: 0.2vh 0.2vh #000;
 }
 
 .info-container {
-  margin: 4vh 45vh 0 45vh;
+  margin: 4.5vh 45vh 0 45vh;
   padding: 5vh 5vw;
   background-color: #00000055;
   color: white;
   font-family: bank-gothic;
   text-shadow: 0.2vh 0.2vh #000;
+  border: 0.1vh solid black;
 }
 
 .info-address-container {
@@ -53,6 +49,7 @@
 }
 
 .map {
+  padding-top: 10px;
   margin-left: 0.5vw;
 }
 
