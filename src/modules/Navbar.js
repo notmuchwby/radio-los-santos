@@ -7,7 +7,7 @@ const Navbar = () => {
             <li><a href="#news">News</a></li>
             <li><a href="/contact">Contact</a></li>
             <li><a href="/about">About</a></li>
-            <li className="title">Since 1988</li>
+            <li className="title"><a href="/">Since 1988</a></li>
         </ul>           
     )
 }

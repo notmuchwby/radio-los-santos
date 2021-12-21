@@ -4,51 +4,97 @@
 } 
 
 .aboutpage {
-    height: 100vh;
     background-image:linear-gradient(
         rgba(0, 0, 0, 0.5),
         rgba(0, 0, 0, 0.5)
-      ), url('../images/jefferson.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-}
+      ), url('../images/graffitti.jpg');
+      background-size: cover;
+      position: fixed;
+      background-repeat: no-repeat;   
+      top: 0;   
+      left: 0;   
+      right: 0;  
+      bottom: 0;  
+      min-width: 100%;  
+      min-height: 100%;
+      overflow-y:scroll;
+      overflow-x:hidden;
+  }
 
-.about-info-container {
+.title-for-about-info-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  color: #ffffff
-}
-
-.about-title-container {
+  font-size: 40px;
   margin-top: 5vh;
   color: white;
   font-family: diploma;
-  font-size: 40px;
   text-shadow: 0.2vh 0.2vh #000;
 }
 
-.slide-show-and-text-container {
+.about-texts-and-pictures-container, .first-text-and-picture-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #00000055;
-  border: 0.1vh solid black;
-  margin: 3.5vh 30vh 0 30vh;
-}
-
-.slide-show-container {
-  margin-top: 5vh;
-}
-
-.slide-show {
-  height: 35vh;
-  width: 35vw;
-}
-
-.about-text-container {
+  color: white;
   font-family: arahoni-bold;
-  font-size: 2.5vh;
-  text-shadow: 0.2vh 0.2vh #000;
-  margin: 5vh;
+  text-shadow:0.1vh 0.1vh #000;
 }
+
+/* First Picture and Text */
+
+.first-text-and-picture-container {
+  margin-top: 6vh;
+}
+
+.first-picture, .third-picture {
+  width: 27vw;
+  height: 30vh;
+  margin-left: 1vh;
+  margin-right: 1vh;
+}
+
+.first-text-container, .third-text-container {
+  margin: 3vh 40vh;
+  background: #00000055;
+  padding: 2vh;
+  line-height: 20px;
+}
+
+/* Second Picture and Text */
+.second-text-and-picture-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 20vh;
+  padding-right: 20vh;
+}
+
+
+
+.second-picture-container {
+  margin-left: 25vh;
+}
+
+.second-picture {
+  width: 27vw;
+  height: 30vh;
+}
+
+.second-text-container {
+  margin-left: 3vh;
+  margin-right: 20vh;
+  padding: 2vh;
+  line-height: 20px;
+  background: #00000055;
+}
+
+/* Third Picture and Text */
+
+.third-text-and-picture-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
