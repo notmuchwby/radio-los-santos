@@ -20,11 +20,6 @@ const AboutInfo = () => {
 
             <div className="about-texts-and-pictures-container">
                 <div className="first-text-and-picture-container">
-                    <div className="first-picture-container">
-                        <img className="first-picture" src={drivebypic}/>
-                        <img className="first-picture" src={vlapic}/>
-                    </div>
-
                     <div className="first-text-container">
                          <p className="first-text">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -43,11 +38,15 @@ const AboutInfo = () => {
                             Pellentesque efficitur egestas cursus. 
                         </p>
                     </div>
+
+                    <div className="first-picture-container">
+                        <img className="first-picture" src={drivebypic}/>
+                    </div>
                 </div>
 
                 <div className="second-text-and-picture-container">
                     <div className="second-picture-container">
-                        <img className="second-picture" src={palmspic}/>
+                        <img className="second-picture" src={vlapic}/>
                     </div>
 
                     <div className="second-text-container">
@@ -93,13 +92,9 @@ const AboutInfo = () => {
                         </p>
                     </div>
 
-                    <div className="third-picture-container">
-                        <img className="third-picture" src={ganton}/>
-                        <img className="third-picture" src={fam1}/>
-                    </div>
-
-                    <div className="third-text-container">
-                         <p className="third-text">
+                <div className="first-text-and-picture-container">
+                    <div className="fourth-text-container">
+                         <p className="first-text">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Aenean dictum ligula hendrerit orci imperdiet, eget varius mi sollicitudin.
                             Donec justo turpis, fermentum id massa non, iaculis finibus est.
@@ -112,14 +107,14 @@ const AboutInfo = () => {
                             Pellentesque sed eros scelerisque, tempus velit vitae, mattis quam. 
                             Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
                             Pellentesque efficitur egestas cursus. Duis sed sem et eros consequat imperdiet.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Aenean dictum ligula hendrerit orci imperdiet, eget varius mi sollicitudin.
-                            Donec justo turpis, fermentum id massa non, iaculis finibus est.
-                            Mauris luctus ex nec lobortis mollis. Sed nec tortor fringilla, ultricies neque sed, lobortis augue.
-                            Donec in felis condimentum, auctor ipsum nec, maximus sem. Duis sodales commodo ipsum quis luctus.
-                            Duis in vulputate risus. Donec tempor massa eu eros imperdiet interdum.
-                            Fusce ornare felis ac leo hendrerit molestie.
+                            Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                            Pellentesque efficitur egestas cursus. 
                         </p>
+                    </div>
+
+                    <div className="first-picture-container">
+                        <img className="first-picture" src={palmspic}/>
+                    </div>
                     </div>
                 </div>
 
@@ -133,7 +128,7 @@ const About = () => {
         <div className="aboutpage">
             <Navbar />
             <AboutInfo />
-            {/* <Footer /> */}
+            <Footer />
         </div>
     )
 }
