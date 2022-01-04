@@ -1,4 +1,4 @@
-import drivebypic from '../images/unnamed.jpg'
+import drivebypic from '../images/driveby.gif'
 import vlapic from '../images/vla1.jpg'
 import palmspic from '../images/palms.jpg'
 import fam1 from '../images/fam1beta.jpg'
