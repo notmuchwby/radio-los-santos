@@ -40,5 +40,9 @@ ul {
     color: white; 
     font-family: diploma;
     text-shadow: 0.1vh 0.1vw #000;
+    margin-left: 43vh;
   }
   
+  .navbar-container {
+    margin-right: 38vh;
+  }

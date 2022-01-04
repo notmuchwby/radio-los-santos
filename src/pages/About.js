@@ -40,13 +40,13 @@ const AboutInfo = () => {
                     </div>
 
                     <div className="first-picture-container">
-                        <img className="first-picture" src={drivebypic}/>
+                        <img className="first-picture" src={drivebypic} alt="ingame drive of grove street og's"/>
                     </div>
                 </div>
 
                 <div className="second-text-and-picture-container">
                     <div className="second-picture-container">
-                        <img className="second-picture" src={vlapic}/>
+                        <img className="second-picture" src={vlapic} alt="varrio los aztecas gang members"/>
                     </div>
 
                     <div className="second-text-container">
@@ -68,8 +68,8 @@ const AboutInfo = () => {
                 </div>
 
                 <div className="third-text-and-picture-container">
-                <div className="third-text-container">
-                         <p className="third-text">
+                    <div className="third-text-container">
+                        <p className="third-text">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Aenean dictum ligula hendrerit orci imperdiet, eget varius mi sollicitudin.
                             Donec justo turpis, fermentum id massa non, iaculis finibus est.
@@ -91,16 +91,16 @@ const AboutInfo = () => {
                             Fusce ornare felis ac leo hendrerit molestie.
                         </p>
                     </div>
+                </div>
 
-                <div className="first-text-and-picture-container">
+                <div className="fourth-text-and-picture-container">
                     <div className="fourth-text-container">
-                         <p className="first-text">
+                        <p className="fourth-text">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                             Aenean dictum ligula hendrerit orci imperdiet, eget varius mi sollicitudin.
                             Donec justo turpis, fermentum id massa non, iaculis finibus est.
                             Mauris luctus ex nec lobortis mollis. Sed nec tortor fringilla, ultricies neque sed, lobortis augue.
-                            Donec in felis condimentum, auctor ipsum nec, maximus sem. Duis sodales commodo ipsum quis luctus.
-                            Duis in vulputate risus. Donec tempor massa eu eros imperdiet interdum.
+                            Donec in felis condimentum, auctor ipsum nec, maximus sem. Duis sodales commodo ipsum quis luctus.                                Duis in vulputate risus. Donec tempor massa eu eros imperdiet interdum.
                             Fusce ornare felis ac leo hendrerit molestie.
                             Curabitur egestas ipsum non commodo dignissim. Mauris et blandit urna.
                             Vestibulum nisl nisi, vestibulum placerat consequat id, imperdiet et est. 
@@ -111,13 +111,11 @@ const AboutInfo = () => {
                             Pellentesque efficitur egestas cursus. 
                         </p>
                     </div>
-
-                    <div className="first-picture-container">
-                        <img className="first-picture" src={palmspic}/>
-                    </div>
+                    
+                    <div className="fourth-picture-container">
+                        <img className="fourth-picture" src={palmspic} alt="palm tree and sky"/>
                     </div>
                 </div>
-
             </div>
         </div>
     )

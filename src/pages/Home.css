@@ -39,11 +39,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 2vh;
+    margin-top: 4vh;
 }
 
 img {
-    width: 18vw;
+    width: 16vw;
 }
 
 img:hover {
@@ -56,7 +56,7 @@ img:hover {
     flex-direction: column;
     align-items: center;
     margin-top: 2vh;
-    font-size: 4vh;
+    font-size: 3vh;
     font-family: bank-gothic;
     color: #ffffffd5;
     text-shadow:0.2vh 0.2vh #000;
@@ -68,14 +68,14 @@ img:hover {
     align-items: center;
     line-height: 1.2;
     color:#ffffffd5;
-    font-size: 2.3vh;
+    font-size: 2.1vh;
     font-family: arahoni-bold;
     margin-top: 8vh;
     text-shadow:0.1vh 0.1vh #000;
     background: #00000055;
     border: 0.1vh solid black;
     padding: 4vh 0 2vh 0;
-    margin: 4vh 35vw 0 35vw; 
+    margin: 4vh 36vw 0 36vw; 
 }
 
 .julio-g {
