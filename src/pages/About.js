@@ -126,7 +126,6 @@ const About = () => {
         <div className="aboutpage">
             <Navbar />
             <AboutInfo />
-            <Footer />
         </div>
     )
 }

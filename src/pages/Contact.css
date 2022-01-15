@@ -51,13 +51,16 @@
 
 .info-address-container {
   text-align: left;
-  margin-left: 14vh;
   font-size: 22px;
 }
 
 .map {
   padding-top: 10px;
   margin-left: 0.5vw;
+}
+
+.downtown-pic {
+  margin-left: 20px;
 }
 
 #info-text {

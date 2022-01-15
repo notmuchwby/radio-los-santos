@@ -1,9 +1,14 @@
 import Navbar from '../modules/Navbar'
+import Footer from '../modules/Footer'
 import './Artists.css'
-import oglocdance from '../images/oglocdance.gif'
-import oglocintro from '../images/oglocintro.gif'
-import madddogg from '../images/madd-dogg.jpg'
-import madddoggalbum from '../images/madd-dogg-album.jpg'
+import MaddDoggAlbum from '../images/madd-dogg-album.jpg'
+import MaddDoggAlbumCover1 from '../images/mdas/mda1.jpg'
+import MaddDoggAlbumCover2 from '../images/mdas/mda2.jpg'
+import MaddDoggAlbumCover3 from '../images/mdas/mda3.jpg'
+import MaddDoggAlbumCover4 from '../images/mdas/mda4.jpg'
+import MaddDoggAlbumCover5 from '../images/mdas/mda5.png'
+import ImageSlider from '../components/ImageSlider'
+import { SliderData } from '../components/SliderData'
 
 const ArtistsInfo = () => {
     return (
@@ -12,55 +17,64 @@ const ArtistsInfo = () => {
                 <p className="artists-title">Our Artists</p>
             </div>
 
+            <ImageSlider slides={SliderData}/>
 
-            <div className="artists-description-container">
+            <div className="artists-text-container">
+                <p className="artists-first-text">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Vestibulum non nisi et ante consequat elementum.
+                    Vestibulum eget ipsum vel diam auctor rutrum id ut tellus.
+                    Curabitur in massa non felis pretium elementum eu et arcu.
+                    Cras mattis dui tincidunt justo molestie aliquam. Curabitur
+                    facilisis porttitor volutpat. Vivamus purus nunc, feugiat sit amet mi in,
+                    porttitor posuere nisi. Vivamus finibus interdum metus, sit amet 
+                    ultrices erat lobortis molestie. Etiam id ante a massa molestie 
+                    sagittis vel sed eros. Nullam tincidunt efficitur erat pretium venenatis. 
+                    Suspendisse hendrerit nibh sapien, a blandit arcu fermentum in.
+                </p>
 
+                <p className="artists-second-text">
+                    In hac habitasse platea dictumst. Cras congue posuere lorem non porta. 
+                    Sed sapien lacus, consectetur in congue id, bibendum eu felis. 
+                    Ut congue vestibulum tellus quis convallis.
+                    Curabitur rutrum mollis purus id malesuada. Curabitur posuere sem nec gravida consectetur. 
+                    Vivamus imperdiet dictum felis nec volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Nam non felis ante.
 
-                <div className="artists-container">
-                    <div className="og-loc-container">
-                        <div className="artist-name-and-picture">
-                            
-                            <div className="artist-picture-container">
-                                <img className="artist-picture" src={oglocdance} alt="og loc dances at the party"></img>
-                                <img className="artist-picture" src={oglocintro}></img>
-                            </div>
-                        </div>
-                        
-                        <div class="artist-description-container">
-                            <p className="artist-description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                Aenean dictum ligula hendrerit orci imperdiet, eget varius mi sollicitudin.
-                                Donec justo turpis, fermentum id massa non, iaculis finibus est.
-                                Mauris luctus ex nec lobortis mollis. Sed nec tortor fringilla, ultricies neque sed, lobortis augue.
-                                Donec in felis condimentum, auctor ipsum nec, maximus sem. Duis sodales commodo ipsum quis luctus.
-                                Duis in vulputate risus. Donec tempor massa eu eros imperdiet interdum.
-                                Aenean dictum ligula hendrerit orci imperdiet, eget varius mi sollicitudin.
-                                
+                    Praesent semper tempus ex. Suspendisse iaculis varius risus et dapibus. 
+                    Aenean posuere velit vel leo pellentesque mollis. 
+                    Sed tempor risus quis massa interdum, sollicitudin malesuada orci feugiat. 
+                    Nullam tincidunt congue erat, non dictum nunc tempus sed. 
+                    Donec commodo mauris lorem, et mattis felis congue eu.
+                    Duis feugiat tristique mi eget egestas. 
+                    Phasellus lobortis mi nisi, ac ultrices risus pretium consectetur.
+                    Praesent viverra convallis purus sit amet rhoncus.
+                </p>
+            </div>
 
-                            </p>
-                        </div>
-                    </div>
+            <div className="madd-dogg-album-container">
+                <p className="artists-title">Madd Dogg's Discography</p>            
+                <div className="madd-doggs-discography-container">
+                    <img className="madd-doggs-album" src={MaddDoggAlbumCover1}></img>
+                    <img className="madd-doggs-album" src={MaddDoggAlbumCover2}></img>
+                    <img className="madd-doggs-album" src={MaddDoggAlbumCover3}></img>
+                    <img className="madd-doggs-album" src={MaddDoggAlbumCover4}></img>
+                    <img className="madd-doggs-album" src={MaddDoggAlbumCover5}></img>
+                </div>
 
-                    <div className="madd-dogg-container">
-                        <div className="artist-name-and-picture">
-                            
-                            <div className="artist-picture-container">
-                                <img className="artist-picture" src={madddogg} alt="og loc dances at the party"></img>
-                                <img className="artist-picture" src={madddoggalbum}></img>
-                            </div>
-                        </div>
-                        
-                        <div class="artist-description-container">
-                            <p className="artist-description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                Aenean dictum ligula hendrerit orci imperdiet, eget varius mi sollicitudin.
-                                Donec justo turpis, fermentum id massa non, iaculis finibus est.
-                                Mauris luctus ex nec lobortis mollis. Sed nec tortor fringilla, ultricies neque sed, lobortis augue.
-                                Donec in felis condimentum, auctor ipsum nec, maximus sem. Duis sodales commodo ipsum quis luctus.
-                                
-                                
-                                
-                            </p>
-                        </div>
-                    </div>
+                <div className="madd-dogg-text-container">
+                    <p className="madd-dogg-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum non nisi et ante consequat elementum.
+                        Vestibulum eget ipsum vel diam auctor rutrum id ut tellus. 
+                        Curabitur in massa non felis pretium elementum eu et arcu.
+                        Cras mattis dui tincidunt justo molestie aliquam. 
+                        Curabitur facilisis porttitor volutpat. 
+                        Vivamus purus nunc, feugiat sit amet mi in, porttitor posuere nisi. 
+                        Vivamus finibus interdum metus, sit amet ultrices erat lobortis molestie. 
+                        Etiam id ante a massa molestie sagittis vel sed eros. 
+                        Nullam tincidunt efficitur erat pretium venenatis. 
+                        Suspendisse hendrerit nibh sapien, a blandit arcu fermentum in.
+                    </p>
                 </div>
             </div>
         </div>
