@@ -1,22 +1,23 @@
+import ogloc from '../images/slideshow/ogloc.jpg'
+import madddogg from '../images/slideshow/madddogg.jpg'
+import mcbud from '../images/slideshow/mcbud.jpg'
+import gmw from '../images/slideshow/gmw.jpg'
+import dmoney from '../images/slideshow/dmoney.png'
+
 export const SliderData = [
     {
-      image:
-        'https://download.gtanet.com/gtagarage/files/image_69241.jpg'
+      image: ogloc
     },
     {
-      image:
-        'https://images.unsplash.com/photo-1501446529957-6226bd447c46?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1489&q=80'
+      image: madddogg
     },
     {
-      image:
-        'https://images.unsplash.com/photo-1483729558449-99ef09a8c325?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80'
+      image: mcbud
     },
     {
-      image:
-        'https://images.unsplash.com/photo-1475189778702-5ec9941484ae?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1351&q=80'
+      image: gmw
     },
     {
-      image:
-        'https://images.unsplash.com/photo-1503177119275-0aa32b3a9368?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80'
+      image: dmoney
     }
   ];

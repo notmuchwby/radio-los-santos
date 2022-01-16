@@ -54,7 +54,6 @@ const Home = () => {
             <Navbar />
             <Logo />
             <WelcomeText />
-            <Footer />
         </div>
     )
 }
